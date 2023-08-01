@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 22px; */
+    /* background-color: #622A1F; */
+}
+body{
+    background:linear-gradient(180deg,#000,#622A1F,#491e15,#000);
+    background-repeat: no-repeat;
+    
 }
 
 .container{
@@ -32,7 +38,7 @@ header{
     /* border-bottom: 1px solid seashell; */
     position: fixed;
     z-index: 200;
-    box-shadow: 0 3px 3px seashell;
+    box-shadow: 0 2px 2px seashell;
 }
 
 header img{
@@ -170,4 +176,10 @@ footer{
     padding-left: 20px;
     display: flex;
     align-items: center;
+}
+
+footer h5{
+    width: 1360px;
+    /* border: 2px solid white; */
+    margin: 0 auto;
 }
